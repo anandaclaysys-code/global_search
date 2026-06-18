@@ -24,28 +24,28 @@ num_samples, num_intents, all_intents = get_dataset_info(dataset_path)
 # UI Header
 render_header()
 
-# Sidebar contents
-with st.sidebar:
-    st.markdown("### ⚙️ System Status & Config")
-    if model is not None:
-        st.success("Model loaded successfully!")
-        # Inspect model pipeline
-        try:
-            tfidf_step = model.named_steps['tfidf']
-            clf_step = model.named_steps['clf']
-            st.info(f"**Vectorizer**: TF-IDF (N-grams {tfidf_step.ngram_range})")
-            st.info(f"**Classifier**: {clf_step.__class__.__name__} (C={clf_step.C})")
-        except Exception:
-            st.info("Pipeline: Custom / Scikit-learn Pipeline")
-    else:
-        st.error("Model file `intent_classifier.joblib` not found. Please train it first.")
+# # Sidebar contents
+# with st.sidebar:
+#     st.markdown("### ⚙️ System Status & Config")
+#     if model is not None:
+#         st.success("Model loaded successfully!")
+#         # Inspect model pipeline
+#         try:
+#             tfidf_step = model.named_steps['tfidf']
+#             clf_step = model.named_steps['clf']
+#             st.info(f"**Vectorizer**: TF-IDF (N-grams {tfidf_step.ngram_range})")
+#             st.info(f"**Classifier**: {clf_step.__class__.__name__} (C={clf_step.C})")
+#         except Exception:
+#             st.info("Pipeline: Custom / Scikit-learn Pipeline")
+#     else:
+#         st.error("Model file `intent_classifier.joblib` not found. Please train it first.")
         
-    if num_samples is not None:
-        st.markdown("### 📊 Dataset Properties")
-        st.write(f"- **Total Training Utterances**: {num_samples}")
-        st.write(f"- **Unique Intent Categories**: {num_intents}")
-        with st.expander("Show All Intent Categories"):
-            st.write(", ".join(sorted(all_intents)))
+#     if num_samples is not None:
+#         st.markdown("### 📊 Dataset Properties")
+#         st.write(f"- **Total Training Utterances**: {num_samples}")
+#         st.write(f"- **Unique Intent Categories**: {num_intents}")
+#         with st.expander("Show All Intent Categories"):
+#             st.write(", ".join(sorted(all_intents)))
 
 # Initialize session state for text input if not exists
 if 'query_text_input' not in st.session_state:
