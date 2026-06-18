@@ -1,0 +1,7 @@
+json
+sklearn
+pandas
+matplotlib
+seaborn
+openpyxl
+nltk

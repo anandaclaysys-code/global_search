@@ -1,0 +1,3681 @@
+{
+    "projectFileVersion": "2025-05-15-preview",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0.7,
+            "normalizeCasing": false,
+            "augmentDiacritics": false
+        },
+        "projectName": "SCCU-test",
+        "multilingual": false,
+        "description": "Model for DigitalBankingNavBot-CLUMigration-NavBot app, targetting composer",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "Accounts"
+            },
+            {
+                "category": "ApplyLoan"
+            },
+            {
+                "category": "ApplyMortgage"
+            },
+            {
+                "category": "ATMLocator"
+            },
+            {
+                "category": "AuthorizedUsers"
+            },
+            {
+                "category": "AutoLoan"
+            },
+            {
+                "category": "BillPay"
+            },
+            {
+                "category": "BoatRVLoan"
+            },
+            {
+                "category": "CardControls"
+            },
+            {
+                "category": "ChangeLoanDueDate"
+            },
+            {
+                "category": "CheckDeposit"
+            },
+            {
+                "category": "ContactUs"
+            },
+            {
+                "category": "CreditCards"
+            },
+            {
+                "category": "CrossAccountTransfers"
+            },
+            {
+                "category": "Dashboard"
+            },
+            {
+                "category": "ExternalACHAccount"
+            },
+            {
+                "category": "FAQs"
+            },
+            {
+                "category": "Help"
+            },
+            {
+                "category": "HomeEquityLoan"
+            },
+            {
+                "category": "LoanPayOff"
+            },
+            {
+                "category": "LoanServices"
+            },
+            {
+                "category": "Message"
+            },
+            {
+                "category": "MyOffers"
+            },
+            {
+                "category": "MyProfile"
+            },
+            {
+                "category": "Navigate"
+            },
+            {
+                "category": "None"
+            },
+            {
+                "category": "NoticesandStatements"
+            },
+            {
+                "category": "OnlineMobileBanking"
+            },
+            {
+                "category": "OpenAccount"
+            },
+            {
+                "category": "OrderaCheck"
+            },
+            {
+                "category": "PayaPerson"
+            },
+            {
+                "category": "PaymentCalender"
+            },
+            {
+                "category": "PersonalLoan"
+            },
+            {
+                "category": "RaiseaDispute"
+            },
+            {
+                "category": "Rates"
+            },
+            {
+                "category": "ReportFraud"
+            },
+            {
+                "category": "RequestaCheck"
+            },
+            {
+                "category": "ScheduleBranchAppointment"
+            },
+            {
+                "category": "ScheduledACHAccount"
+            },
+            {
+                "category": "ScheduledCreditCardTransfers"
+            },
+            {
+                "category": "ScheduledInternalTransfer"
+            },
+            {
+                "category": "ServiceRequest"
+            },
+            {
+                "category": "SkipaPayment"
+            },
+            {
+                "category": "SpecialCharacters"
+            },
+            {
+                "category": "Statement"
+            },
+            {
+                "category": "StopPayment"
+            },
+            {
+                "category": "TalkativeHandOff"
+            },
+            {
+                "category": "TransferMoney"
+            },
+            {
+                "category": "Transfers"
+            },
+            {
+                "category": "TravelPlans"
+            },
+            {
+                "category": "VisitaBranch"
+            },
+            {
+                "category": "ExternalLoanPayments"
+            },
+            {
+                "category": "AccountInformation"
+            }
+        ],
+        "entities": [
+            {
+                "category": "livechatkeyword",
+                "compositionSetting": "combineComponents",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "livechat",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "chat online",
+                                        "online chat",
+                                        "customer support",
+                                        "support",
+                                        "online support",
+                                        "live support",
+                                        "livechat"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "category": "loankeyword",
+                "compositionSetting": "combineComponents",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "ApplyLoan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "apply loans",
+                                        "apply loan",
+                                        "applyloan",
+                                        "ApplyLoan"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "AutoLoan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "auto loan",
+                                        "auto loans",
+                                        "vehicle loan",
+                                        "vehicle loans",
+                                        "autloloan",
+                                        "autoloans",
+                                        "AutoLoan"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "BoatRVLoan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "boat loan",
+                                        "boat loans",
+                                        "rv loan",
+                                        "rv loans",
+                                        "boat",
+                                        "rv",
+                                        "boats",
+                                        "rvs",
+                                        "boatloan",
+                                        "boatloans",
+                                        "rvloan",
+                                        "rvloans",
+                                        "BoatRVLoans",
+                                        "BoatRVLoan"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "PersonalLoan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "personal loan",
+                                        "personal loans",
+                                        "personalloan",
+                                        "personalloans",
+                                        "PersonalLoan"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "CreditCardLoan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "credit card loan",
+                                        "credit card loans",
+                                        "credit cards loan",
+                                        "credit cards loans",
+                                        "creditcardloan",
+                                        "creditcardloans",
+                                        "CreditCardLoan"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "HomeEquityLoan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "home equity",
+                                        "home equity loan",
+                                        "home equity loans",
+                                        "homeequityloan",
+                                        "homeequityloans",
+                                        "HomeEquityLoan"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "category": "navigationkeyword",
+                "compositionSetting": "combineComponents",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "MyOffers",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "My Offers",
+                                        "MyOffers",
+                                        "my offers",
+                                        "myoffers",
+                                        "My offer",
+                                        "My offers",
+                                        "Loan Offers",
+                                        "Loan offer",
+                                        "loan offers",
+                                        "loan offer",
+                                        "offer",
+                                        "offers"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "MyProfile",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "MyProfile",
+                                        "my profile",
+                                        "profile",
+                                        "address",
+                                        "phone number",
+                                        "phone",
+                                        "contact info",
+                                        "contact",
+                                        "email",
+                                        "email address",
+                                        "security",
+                                        "security settings",
+                                        "TOTP",
+                                        "e-alerts",
+                                        "e alerts",
+                                        "e-alert",
+                                        "notes",
+                                        "notes and categories",
+                                        "notes & categories",
+                                        "enrollment",
+                                        "enrollment settings",
+                                        "Enrollment Settings",
+                                        "contact information"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "AuthorizedUsers",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "AuthorizedUsers",
+                                        "authorized user",
+                                        "authorized users",
+                                        "authorized user management",
+                                        "add user",
+                                        "add users",
+                                        "delete user",
+                                        "delete users",
+                                        "manage user",
+                                        "manage users"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "AccountInformation",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "AccountInformation",
+                                        "account information",
+                                        "generate payoff",
+                                        "escrow payment",
+                                        "setup recurring transfer",
+                                        "recent deposits",
+                                        "transaction history",
+                                        "order checks",
+                                        "order check",
+                                        "create nick name",
+                                        "modify nick name",
+                                        "create nickname",
+                                        "modify nickname",
+                                        "notes and categories",
+                                        "notes",
+                                        "notes & categories",
+                                        "recent deposit",
+                                        "escrow payments",
+                                        "create/modify nickname"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ExternalLoanPayments",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "ExternalLoanPayments",
+                                        "External loan payments",
+                                        "external loan payments"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "Accounts",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "accounts",
+                                        "account",
+                                        "account section",
+                                        "account summary",
+                                        "summary",
+                                        "summary section",
+                                        "balance",
+                                        "available balance",
+                                        "Accounts"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ApplyLoan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "ApplyLoan",
+                                        "apply loans",
+                                        "apply loan",
+                                        "apply for loan",
+                                        "apply now",
+                                        "mortgage",
+                                        "equity loan",
+                                        "hero loan",
+                                        "loan",
+                                        "Pre-approval loan",
+                                        "pre approval loan",
+                                        "refinance",
+                                        "motorcycle",
+                                        "sccoter",
+                                        "vehicle loan",
+                                        "home loan",
+                                        "apply for credit card",
+                                        "boat and rv",
+                                        "Boat & RV",
+                                        "loans",
+                                        "personal loan"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "BoatRVLoan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "boat loan",
+                                        "boat loans",
+                                        "rv loan",
+                                        "rv loans",
+                                        "boat",
+                                        "rv",
+                                        "boats",
+                                        "rvs",
+                                        "boatloan",
+                                        "boatloans",
+                                        "rvloan",
+                                        "rvloans",
+                                        "BoatRV Loan",
+                                        "BoatRVLoans",
+                                        "BoatRVLoan"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "CreditCardLoan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "credit card loan",
+                                        "credit card loans",
+                                        "credit cards loan",
+                                        "credit cards loans",
+                                        "creditcardsloans",
+                                        "creditcardloan",
+                                        "creditcardloans",
+                                        "CreditCardLoan"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "HomeEquityLoan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "home equity",
+                                        "home equity loan",
+                                        "home equity loans",
+                                        "homeequityloan",
+                                        "homeequityloans",
+                                        "homeequity loan",
+                                        "homeequity loans",
+                                        "HomeEquityLoan"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "Statement",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "account statement",
+                                        "account statements",
+                                        "statements",
+                                        "accountstatement",
+                                        "accountstatements",
+                                        "Statement"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "TransferMoney",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "transfer money",
+                                        "money transfer",
+                                        "funds transfer",
+                                        "fund transer",
+                                        "transfermoney",
+                                        "moneytransfer",
+                                        "TransferMoney",
+                                        "make payment",
+                                        "transfer to",
+                                        "make a payment",
+                                        "transfer from",
+                                        "transfer",
+                                        "transfers",
+                                        "make payments"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ContactUs",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "contact us",
+                                        "about us",
+                                        "contact information",
+                                        "contactus",
+                                        "ContactUs"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "Dashboard",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "dashboard",
+                                        "home screen",
+                                        "home",
+                                        "main screen",
+                                        "Dashboard",
+                                        "Fico score"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "LoanRates",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "loan rate",
+                                        "loan rates",
+                                        "LoanRates"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "CardControls",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "card controls",
+                                        "cards controls",
+                                        "control cards",
+                                        "card control",
+                                        "cards control",
+                                        "cardcontrol",
+                                        "cardcontrols",
+                                        "CardControls",
+                                        "card",
+                                        "cards",
+                                        "credit card",
+                                        "credit cards"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "TravelPlans",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "travel plans",
+                                        "travel plan",
+                                        "travelling plans",
+                                        "plan travel",
+                                        "travelplan",
+                                        "travelplans",
+                                        "travel notifications",
+                                        "travelnotifications",
+                                        "travel notification",
+                                        "travelnotification",
+                                        "TravelPlans"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "CrossAccountTransfers",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "cross account transfers",
+                                        "transfer cross account",
+                                        "cross transfer",
+                                        "cross account transfer",
+                                        "CrossAccountTransfer",
+                                        "CrossAccount Transfer",
+                                        "CrossAccount Transfers",
+                                        "CrossAccountTransfers"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "BillPay",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "bill pay",
+                                        "pay bill",
+                                        "pay bills",
+                                        "bill payment",
+                                        "bill payments",
+                                        "billpay",
+                                        "paybill",
+                                        "BillPay",
+                                        "Bill payer",
+                                        "bill payer",
+                                        "bill",
+                                        "bills"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "PaymentCalender",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "payment calendar",
+                                        "payment calender",
+                                        "payments calendar",
+                                        "payments calender",
+                                        "calendar payment",
+                                        "calender payment",
+                                        "payment calendars",
+                                        "payment calenders",
+                                        "paymentcalendar",
+                                        "paymentcalender",
+                                        "PaymentCalender",
+                                        "upcoming payments",
+                                        "upcoming payment",
+                                        "scheduled transfer",
+                                        "scheduled transfers"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ExternalACHAccount",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "External ACH Account",
+                                        "External ACH accounts",
+                                        "External ACH",
+                                        "ExternalACH Account",
+                                        "external ach account",
+                                        "external ache account",
+                                        "external acsh account",
+                                        "external acsh accounts",
+                                        "ExternalACHAccount",
+                                        "External ACH Accounts",
+                                        "Add external accounts",
+                                        "add external account",
+                                        "add external accounts",
+                                        "Add external account",
+                                        "External payment",
+                                        "External payements",
+                                        "external payments",
+                                        "external payment"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ScheduledACHAccount",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Scheduled ACH Account",
+                                        "Scheduled ACH accounts",
+                                        "Scheduled ACH",
+                                        "Scheduled ACH transfer",
+                                        "Scheduled ACH transfers",
+                                        "ScheduledACHTransfer",
+                                        "ScheduledACHAccount"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ScheduledCreditCardTransfers",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "scheduled credit card transfers",
+                                        "scheduled credit card transfer",
+                                        "credit card transfers schedule",
+                                        "ScheduledCreditCardTransfers"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "SkipaPayment",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "skip a payment",
+                                        "skip payment",
+                                        "payment skip",
+                                        "SkipPayment",
+                                        "SkipaPayment"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "Rates",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "rates",
+                                        "rate",
+                                        "Rates"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ChangeLoanDueDate",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "change loan due date",
+                                        "loan due date change",
+                                        "change loan",
+                                        "ChangeLoanDueDate"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "LoanPayOff",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "loan pay off",
+                                        "pay off loan",
+                                        "pay loan",
+                                        "pay loan off",
+                                        "loan pay",
+                                        "pay my loan",
+                                        "loan payoff",
+                                        "payoff loan",
+                                        "LoanPayOff"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "OpenAccount",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "open new account",
+                                        "new account open",
+                                        "open account",
+                                        "open a new account",
+                                        "open an account",
+                                        "account opening",
+                                        "account open",
+                                        "opening account",
+                                        "OpenAnAccount",
+                                        "OpenAccount"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "Help",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "hi",
+                                        "hello",
+                                        "hey",
+                                        "hey there",
+                                        "help",
+                                        "good afternoon",
+                                        "good morning",
+                                        "good evening",
+                                        "Help"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ServiceRequest",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "service request",
+                                        "service requests",
+                                        "ServiceRequests",
+                                        "ServiceRequest"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "Message",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "message",
+                                        "messages",
+                                        "Message",
+                                        "inbox",
+                                        "message us",
+                                        "secure emssages",
+                                        "secure message",
+                                        "draft",
+                                        "drafts",
+                                        "new message",
+                                        "new messages",
+                                        "sent message",
+                                        "sent messages",
+                                        "contact us"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "LoanServices",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Loan Services",
+                                        "loan services",
+                                        "loan service",
+                                        "LoanService",
+                                        "loan center",
+                                        "loancenter",
+                                        "loan centre",
+                                        "loancentre",
+                                        "LoanServices"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "VisitaBranch",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Visit a Branch",
+                                        "visit a branch",
+                                        "visit branch",
+                                        "VisitBranch",
+                                        "VisitaBranch"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ScheduleBranchAppointment",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Schedule Branch Appointment",
+                                        "schedule branch appointment",
+                                        "branch appointment",
+                                        "branchappointment",
+                                        "schedule appointment",
+                                        "scheduleappointment",
+                                        "ScheduleBranchAppointment"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "RaiseaDispute",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Raise a Dispute",
+                                        "raise a dispute",
+                                        "raise dispute",
+                                        "RaiseDispute",
+                                        "RaiseaDispute"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ReportFraud",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Report Fraud",
+                                        "report fraud",
+                                        "ReportFraud"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "StopPayment",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Stop Payment",
+                                        "stop payment",
+                                        "StopPayment"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "RequestaCheck",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Request a Check",
+                                        "request a check",
+                                        "request check",
+                                        "RequestCheck",
+                                        "RequestaCheck"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "NoticesandStatements",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Notices and Statements",
+                                        "notices and statements",
+                                        "NoticeandStatement",
+                                        "NoticesandStatement",
+                                        "NoticeandStatements",
+                                        "statements and notices",
+                                        "statementsandnotices",
+                                        "notices",
+                                        "notice",
+                                        "eStatements",
+                                        "NoticesandStatements",
+                                        "documents",
+                                        "statements",
+                                        "notices & statements",
+                                        "estatement",
+                                        "estatements",
+                                        "document",
+                                        "estatments",
+                                        "Notices & Statments",
+                                        "Notices",
+                                        "Notices and Staments",
+                                        "Documents"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "FAQs",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "faqs",
+                                        "FAQ",
+                                        "FAQs"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ATMLocator",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "ATM Locator",
+                                        "atm locator",
+                                        "atmlocator",
+                                        "ATMLocator"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "PayaPerson",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Pay a Person",
+                                        "pay a person",
+                                        "payaperson",
+                                        "PayaPerson"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "CheckDeposit",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Check Deposit",
+                                        "check deposit",
+                                        "deposit check",
+                                        "depositcheck",
+                                        "remote deposit",
+                                        "remotedeposit",
+                                        "mobile deposit",
+                                        "mobiledeposit",
+                                        "Mobile deposit history",
+                                        "CheckDeposit",
+                                        "deposit history",
+                                        "Mobile Deposit History",
+                                        "mobile deposit history"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "category": "money",
+                "compositionSetting": "combineComponents",
+                "prebuilts": [
+                    {
+                        "category": "Quantity.Currency"
+                    }
+                ]
+            },
+            {
+                "category": "money.transferAmount",
+                "compositionSetting": "requireExactOverlap",
+                "prebuilts": [
+                    {
+                        "category": "Quantity.Currency"
+                    }
+                ]
+            }
+        ],
+        "utterances": [
+            {
+                "text": "Email",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "eStatement",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Statements",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "eStatements",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Notices",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Notices & Statements",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Notices and Statments",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Document",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Documents",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "enrollment setting",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Enrollment setting",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Enrollment Settings",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Email Address",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "security setting",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "security settings",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Security settings",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Enrollment settings",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "contact",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "email",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "offer",
+                "language": "en-us",
+                "intent": "MyOffers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Offer",
+                "language": "en-us",
+                "intent": "MyOffers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Loan Offer",
+                "language": "en-us",
+                "intent": "MyOffers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Loan offer",
+                "language": "en-us",
+                "intent": "MyOffers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Loan offers",
+                "language": "en-us",
+                "intent": "MyOffers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Offers",
+                "language": "en-us",
+                "intent": "MyOffers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "My offers",
+                "language": "en-us",
+                "intent": "MyOffers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "My Offer",
+                "language": "en-us",
+                "intent": "MyOffers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "My Offers",
+                "language": "en-us",
+                "intent": "MyOffers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "email address",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "sent messages",
+                "language": "en-us",
+                "intent": "Message",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "sent message",
+                "language": "en-us",
+                "intent": "Message",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "new messages",
+                "language": "en-us",
+                "intent": "Message",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "new message",
+                "language": "en-us",
+                "intent": "Message",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "drafts",
+                "language": "en-us",
+                "intent": "Message",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "draft",
+                "language": "en-us",
+                "intent": "Message",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "message us",
+                "language": "en-us",
+                "intent": "Message",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "inbox",
+                "language": "en-us",
+                "intent": "Message",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "secure message",
+                "language": "en-us",
+                "intent": "Message",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "secure messages",
+                "language": "en-us",
+                "intent": "Message",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "notices & statements",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "estatement",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "statement",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "documents",
+                "language": "en-us",
+                "intent": "NoticesandStatements",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "deposit history",
+                "language": "en-us",
+                "intent": "CheckDeposit",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Mobile Deposit History",
+                "language": "en-us",
+                "intent": "CheckDeposit",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "external ACH accounts",
+                "language": "en-us",
+                "intent": "ExternalACHAccount",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "External ACH Accounts",
+                "language": "en-us",
+                "intent": "ExternalACHAccount",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "external ACH",
+                "language": "en-us",
+                "intent": "ExternalACHAccount",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "External ACH",
+                "language": "en-us",
+                "intent": "ExternalACHAccount",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "add external accounts",
+                "language": "en-us",
+                "intent": "ExternalACHAccount",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "external payment",
+                "language": "en-us",
+                "intent": "ExternalACHAccount",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "external payments",
+                "language": "en-us",
+                "intent": "ExternalACHAccount",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "External payment",
+                "language": "en-us",
+                "intent": "ExternalACHAccount",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "External payments",
+                "language": "en-us",
+                "intent": "ExternalACHAccount",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "external ach accounts",
+                "language": "en-us",
+                "intent": "ExternalACHAccount",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "bills",
+                "language": "en-us",
+                "intent": "BillPay",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "bill",
+                "language": "en-us",
+                "intent": "BillPay",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "bill payer",
+                "language": "en-us",
+                "intent": "BillPay",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "scheduled transfer",
+                "language": "en-us",
+                "intent": "PaymentCalender",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "scheduled transfers",
+                "language": "en-us",
+                "intent": "PaymentCalender",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "upcoming payment",
+                "language": "en-us",
+                "intent": "PaymentCalender",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "upcoming payments",
+                "language": "en-us",
+                "intent": "PaymentCalender",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "make payments",
+                "language": "en-us",
+                "intent": "TransferMoney",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "make a payment",
+                "language": "en-us",
+                "intent": "TransferMoney",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "transfer",
+                "language": "en-us",
+                "intent": "TransferMoney",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "transfers",
+                "language": "en-us",
+                "intent": "TransferMoney",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "cards",
+                "language": "en-us",
+                "intent": "CardControls",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "credit cards",
+                "language": "en-us",
+                "intent": "CardControls",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "credit card",
+                "language": "en-us",
+                "intent": "CardControls",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "card",
+                "language": "en-us",
+                "intent": "CardControls",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "modify nickname",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "create nickname",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "create/modify nickname",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "manage user",
+                "language": "en-us",
+                "intent": "AuthorizedUsers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "delete user",
+                "language": "en-us",
+                "intent": "AuthorizedUsers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "edit user",
+                "language": "en-us",
+                "intent": "AuthorizedUsers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "add user",
+                "language": "en-us",
+                "intent": "AuthorizedUsers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "authorised user management",
+                "language": "en-us",
+                "intent": "AuthorizedUsers",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "escrow payments",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "recent deposit",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "notes",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "notes & categories",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "notes and categories",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Notes and Categories",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "personal loan",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "auto loan",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "order check",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "order checks",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "alerts",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "contact info",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "email address",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "phone number",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "address",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "enrollment settings",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "e-alerts",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "e alerts",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Manage devices",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "manage devices",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "security",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "totp",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "TOTP",
+                "language": "en-us",
+                "intent": "MyProfile",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Loans",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "equity loan",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "mortgage",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "scooter",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "vehicle loan",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "motorcycle",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "hero loan",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "apply for credit card",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "refinance",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "boat and rv",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Boat & RV",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "loan",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "home loan",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "pre approval",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "pre-approval",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Pre-approval",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "setup recurring transfer",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "escrow payment",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "generate payoff",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "create nick name",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "modify nick name",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "recent deposits",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "transaction history",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "account information",
+                "language": "en-us",
+                "intent": "AccountInformation",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "make payment",
+                "language": "en-us",
+                "intent": "TransferMoney",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "externalloanpayments",
+                "language": "en-us",
+                "intent": "ExternalLoanPayments",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "external loan payments",
+                "language": "en-us",
+                "intent": "ExternalLoanPayments",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "External loan payments",
+                "language": "en-us",
+                "intent": "ExternalLoanPayments",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "apply now",
+                "language": "en-us",
+                "intent": "ApplyLoan",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "_",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "-",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": ",",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": ";",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": ":",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "!",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "!@#$",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "!@#$%^&*()_+",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "?",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": ".",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "'",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "\"",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "(",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": ")",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": ")(*&^%)",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "[",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "]",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "{",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "}",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "@",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "*",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "/",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "\\",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "&",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "#",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "%",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "%@#",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "`",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "^",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "+",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "<",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "=",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": ">",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "|",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "~",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "$",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "$%%%$",
+                "intent": "SpecialCharacters",
+                "entities": []
+            },
+            {
+                "text": "account",
+                "intent": "Accounts",
+                "entities": []
+            },
+            {
+                "text": "account section",
+                "intent": "Accounts",
+                "entities": []
+            },
+            {
+                "text": "account statement",
+                "intent": "Statement",
+                "entities": []
+            },
+            {
+                "text": "account statements",
+                "intent": "Statement",
+                "entities": []
+            },
+            {
+                "text": "account summary",
+                "intent": "Accounts",
+                "entities": []
+            },
+            {
+                "text": "accounts",
+                "intent": "Accounts",
+                "entities": []
+            },
+            {
+                "text": "accountstatement",
+                "intent": "Statement",
+                "entities": []
+            },
+            {
+                "text": "accountstatements",
+                "intent": "Statement",
+                "entities": []
+            },
+            {
+                "text": "apply for a loan",
+                "intent": "ApplyLoan",
+                "entities": []
+            },
+            {
+                "text": "apply for loan",
+                "intent": "ApplyLoan",
+                "entities": []
+            },
+            {
+                "text": "atm locator",
+                "intent": "ATMLocator",
+                "entities": []
+            },
+            {
+                "text": "atmlocator",
+                "intent": "ATMLocator",
+                "entities": []
+            },
+            {
+                "text": "authorised user",
+                "intent": "AuthorizedUsers",
+                "entities": []
+            },
+            {
+                "text": "authorised users",
+                "intent": "AuthorizedUsers",
+                "entities": []
+            },
+            {
+                "text": "authorized user",
+                "intent": "AuthorizedUsers",
+                "entities": []
+            },
+            {
+                "text": "authorized users",
+                "intent": "AuthorizedUsers",
+                "entities": []
+            },
+            {
+                "text": "authorizeduser",
+                "intent": "AuthorizedUsers",
+                "entities": []
+            },
+            {
+                "text": "authorizedusers",
+                "intent": "AuthorizedUsers",
+                "entities": []
+            },
+            {
+                "text": "available balance",
+                "intent": "Accounts",
+                "entities": []
+            },
+            {
+                "text": "balance",
+                "intent": "Accounts",
+                "entities": []
+            },
+            {
+                "text": "bill pay",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "bill payments",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "billpay",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "boat loan",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "boat loans",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "boat/rv loan",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "boat/rv loans",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "boat\\rv loan",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "boat\\rv loans",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "boatloan",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "boatloans",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "boatrv loan",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "boatrvloan",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "boatrvloans",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "branch appointment",
+                "intent": "ScheduleBranchAppointment",
+                "entities": []
+            },
+            {
+                "text": "branchappointment",
+                "intent": "ScheduleBranchAppointment",
+                "entities": []
+            },
+            {
+                "text": "can i check my balance",
+                "intent": "Accounts",
+                "entities": []
+            },
+            {
+                "text": "can i speak to a human",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "card contorls",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "card control",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "cardcontrols",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "cards contorls",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "change loan due date",
+                "intent": "ChangeLoanDueDate",
+                "entities": []
+            },
+            {
+                "text": "changeloanduedate",
+                "intent": "ChangeLoanDueDate",
+                "entities": []
+            },
+            {
+                "text": "check deposit",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "checkdeposit",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "connect me to a human",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "contact call center",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "contactus",
+                "intent": "ContactUs",
+                "entities": []
+            },
+            {
+                "text": "credit card transfers schedule",
+                "intent": "ScheduledCreditCardTransfers",
+                "entities": []
+            },
+            {
+                "text": "cross account transfers",
+                "intent": "CrossAccountTransfers",
+                "entities": []
+            },
+            {
+                "text": "cross transfer",
+                "intent": "CrossAccountTransfers",
+                "entities": []
+            },
+            {
+                "text": "crossaccount transfer",
+                "intent": "CrossAccountTransfers",
+                "entities": []
+            },
+            {
+                "text": "crossaccount transfers",
+                "intent": "CrossAccountTransfers",
+                "entities": []
+            },
+            {
+                "text": "crossaccounttransfer",
+                "intent": "CrossAccountTransfers",
+                "entities": []
+            },
+            {
+                "text": "crossaccounttransfers",
+                "intent": "CrossAccountTransfers",
+                "entities": []
+            },
+            {
+                "text": "dash board",
+                "intent": "Dashboard",
+                "entities": []
+            },
+            {
+                "text": "dashboard",
+                "intent": "Dashboard",
+                "entities": []
+            },
+            {
+                "text": "deposit check",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "e deposit",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "edeposit",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "estatements",
+                "intent": "NoticesandStatements",
+                "entities": []
+            },
+            {
+                "text": "external ach account",
+                "intent": "ExternalACHAccount",
+                "entities": []
+            },
+            {
+                "text": "externalach account",
+                "intent": "ExternalACHAccount",
+                "entities": []
+            },
+            {
+                "text": "externalachaccount",
+                "intent": "ExternalACHAccount",
+                "entities": []
+            },
+            {
+                "text": "faq",
+                "intent": "FAQs",
+                "entities": []
+            },
+            {
+                "text": "faqs",
+                "intent": "FAQs",
+                "entities": []
+            },
+            {
+                "text": "find atm's and branches",
+                "intent": "ContactUs",
+                "entities": []
+            },
+            {
+                "text": "find atms and branches",
+                "intent": "ContactUs",
+                "entities": []
+            },
+            {
+                "text": "get me connected to a human",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "good afternoon",
+                "intent": "Help",
+                "entities": []
+            },
+            {
+                "text": "good evening",
+                "intent": "Help",
+                "entities": []
+            },
+            {
+                "text": "good morning",
+                "intent": "Help",
+                "entities": []
+            },
+            {
+                "text": "handoff",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "hello",
+                "intent": "Help",
+                "entities": []
+            },
+            {
+                "text": "help",
+                "intent": "Help",
+                "entities": []
+            },
+            {
+                "text": "hey",
+                "intent": "Help",
+                "entities": []
+            },
+            {
+                "text": "hey there",
+                "intent": "Help",
+                "entities": []
+            },
+            {
+                "text": "hi",
+                "intent": "Help",
+                "entities": []
+            },
+            {
+                "text": "home equity loan",
+                "intent": "HomeEquityLoan",
+                "entities": []
+            },
+            {
+                "text": "home equity loans",
+                "intent": "HomeEquityLoan",
+                "entities": []
+            },
+            {
+                "text": "homeequity loan",
+                "intent": "HomeEquityLoan",
+                "entities": []
+            },
+            {
+                "text": "homeequity loans",
+                "intent": "HomeEquityLoan",
+                "entities": []
+            },
+            {
+                "text": "homeequityloan",
+                "intent": "HomeEquityLoan",
+                "entities": []
+            },
+            {
+                "text": "homeequityloans",
+                "intent": "HomeEquityLoan",
+                "entities": []
+            },
+            {
+                "text": "how can change due date of my loan",
+                "intent": "ChangeLoanDueDate",
+                "entities": []
+            },
+            {
+                "text": "how can i change loan due date",
+                "intent": "ChangeLoanDueDate",
+                "entities": []
+            },
+            {
+                "text": "how can i check statements",
+                "intent": "Statement",
+                "entities": []
+            },
+            {
+                "text": "how can i contact",
+                "intent": "ContactUs",
+                "entities": []
+            },
+            {
+                "text": "how can i control cards",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "how can i deposit a check",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "how can i open a new account",
+                "intent": "OpenAccount",
+                "entities": []
+            },
+            {
+                "text": "how can i open account",
+                "intent": "OpenAccount",
+                "entities": []
+            },
+            {
+                "text": "how can i pay bill",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "how can i pay loan",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "how can i pay my loan",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "how can i pay my loan off",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "how can i plan travel",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "how cross account transfer works",
+                "intent": "CrossAccountTransfers",
+                "entities": []
+            },
+            {
+                "text": "how do i connect to an agent",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "how do i contact you",
+                "intent": "ContactUs",
+                "entities": []
+            },
+            {
+                "text": "how do i deposit check",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "how do i edit my profile",
+                "intent": "MyProfile",
+                "entities": []
+            },
+            {
+                "text": "how do i transfer money",
+                "intent": "TransferMoney",
+                "entities": []
+            },
+            {
+                "text": "how much did i spend",
+                "intent": "Statement",
+                "entities": []
+            },
+            {
+                "text": "how to change loan due date",
+                "intent": "ChangeLoanDueDate",
+                "entities": []
+            },
+            {
+                "text": "how to check statement",
+                "intent": "Statement",
+                "entities": []
+            },
+            {
+                "text": "how to control cards",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "how to cross account transfer",
+                "intent": "CrossAccountTransfers",
+                "entities": []
+            },
+            {
+                "text": "how to cross transfer",
+                "intent": "CrossAccountTransfers",
+                "entities": []
+            },
+            {
+                "text": "how to download mobile app",
+                "intent": "OnlineMobileBanking",
+                "entities": []
+            },
+            {
+                "text": "how to get payment calendar",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "how to get payment calender",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "how to know the rates",
+                "intent": "Rates",
+                "entities": []
+            },
+            {
+                "text": "how to open new account",
+                "intent": "OpenAccount",
+                "entities": []
+            },
+            {
+                "text": "how to pay bill",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "how to pay loan",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "how to pay off loan",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "how to plan travel",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "how to register for online banking",
+                "intent": "OnlineMobileBanking",
+                "entities": []
+            },
+            {
+                "text": "how to skip a payment",
+                "intent": "SkipaPayment",
+                "entities": []
+            },
+            {
+                "text": "human",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "i am stuck need some help",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "i forgot my password",
+                "intent": "OnlineMobileBanking",
+                "entities": []
+            },
+            {
+                "text": "i forgot my user id",
+                "intent": "OnlineMobileBanking",
+                "entities": []
+            },
+            {
+                "text": "i want to apply for loan",
+                "intent": "ApplyLoan",
+                "entities": []
+            },
+            {
+                "text": "i want to borrow some money",
+                "intent": "ApplyLoan",
+                "entities": []
+            },
+            {
+                "text": "i want to change my loan due date",
+                "intent": "ChangeLoanDueDate",
+                "entities": []
+            },
+            {
+                "text": "i want to deposit a check",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "i want to know my payment calendar",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "i want to know my payment calender",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "i want to open account",
+                "intent": "OpenAccount",
+                "entities": []
+            },
+            {
+                "text": "i want to open new account",
+                "intent": "OpenAccount",
+                "entities": []
+            },
+            {
+                "text": "i want to pay bill",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "i want to pay my loan",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "i want to pay off my loan",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "i want to skip a payment",
+                "intent": "SkipaPayment",
+                "entities": []
+            },
+            {
+                "text": "i woudld like to skip payment",
+                "intent": "SkipaPayment",
+                "entities": []
+            },
+            {
+                "text": "i would like to apply for a loan",
+                "intent": "ApplyLoan",
+                "entities": []
+            },
+            {
+                "text": "i would like to change loan due date",
+                "intent": "ChangeLoanDueDate",
+                "entities": []
+            },
+            {
+                "text": "i would like to open a new account",
+                "intent": "OpenAccount",
+                "entities": []
+            },
+            {
+                "text": "i would like to pay bill",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "i would like to pay my loan",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "i would like to see some offers",
+                "intent": "MyOffers",
+                "entities": []
+            },
+            {
+                "text": "i would like to talk to an agent",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "i would want to apply for a loan",
+                "intent": "ApplyLoan",
+                "entities": []
+            },
+            {
+                "text": "i would want to change my loan due date",
+                "intent": "ChangeLoanDueDate",
+                "entities": []
+            },
+            {
+                "text": "i would want to know the rate",
+                "intent": "Rates",
+                "entities": []
+            },
+            {
+                "text": "live agent",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "live chat",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "loan center",
+                "intent": "LoanServices",
+                "entities": []
+            },
+            {
+                "text": "loan centre",
+                "intent": "LoanServices",
+                "entities": []
+            },
+            {
+                "text": "loan pay",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "loan pay off",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "loan payoff",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "loan service",
+                "intent": "LoanServices",
+                "entities": []
+            },
+            {
+                "text": "loan services",
+                "intent": "LoanServices",
+                "entities": []
+            },
+            {
+                "text": "loancenter",
+                "intent": "LoanServices",
+                "entities": []
+            },
+            {
+                "text": "loancentre",
+                "intent": "LoanServices",
+                "entities": []
+            },
+            {
+                "text": "loanpayoff",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "loanservice",
+                "intent": "LoanServices",
+                "entities": []
+            },
+            {
+                "text": "loanservices",
+                "intent": "LoanServices",
+                "entities": []
+            },
+            {
+                "text": "message",
+                "intent": "Message",
+                "entities": []
+            },
+            {
+                "text": "messages",
+                "intent": "Message",
+                "entities": []
+            },
+            {
+                "text": "mobile banking",
+                "intent": "OnlineMobileBanking",
+                "entities": []
+            },
+            {
+                "text": "mobile deposit",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "mobile deposit history",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "mobiledeposit",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "money transfer",
+                "intent": "TransferMoney",
+                "entities": []
+            },
+            {
+                "text": "moneytransfer",
+                "intent": "TransferMoney",
+                "entities": []
+            },
+            {
+                "text": "my offers",
+                "intent": "MyOffers",
+                "entities": []
+            },
+            {
+                "text": "my profile",
+                "intent": "MyProfile",
+                "entities": []
+            },
+            {
+                "text": "myoffers",
+                "intent": "MyOffers",
+                "entities": []
+            },
+            {
+                "text": "myprofile",
+                "intent": "MyProfile",
+                "entities": []
+            },
+            {
+                "text": "need some help",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "notice",
+                "intent": "NoticesandStatements",
+                "entities": []
+            },
+            {
+                "text": "noticeandstatement",
+                "intent": "NoticesandStatements",
+                "entities": []
+            },
+            {
+                "text": "noticeandstatements",
+                "intent": "NoticesandStatements",
+                "entities": []
+            },
+            {
+                "text": "notices",
+                "intent": "NoticesandStatements",
+                "entities": []
+            },
+            {
+                "text": "notices and statements",
+                "intent": "NoticesandStatements",
+                "entities": []
+            },
+            {
+                "text": "noticesandstatement",
+                "intent": "NoticesandStatements",
+                "entities": []
+            },
+            {
+                "text": "noticesandstatements",
+                "intent": "NoticesandStatements",
+                "entities": []
+            },
+            {
+                "text": "online banking",
+                "intent": "OnlineMobileBanking",
+                "entities": []
+            },
+            {
+                "text": "online/mobile banking",
+                "intent": "OnlineMobileBanking",
+                "entities": []
+            },
+            {
+                "text": "open new account",
+                "intent": "OpenAccount",
+                "entities": []
+            },
+            {
+                "text": "openaccount",
+                "intent": "OpenAccount",
+                "entities": []
+            },
+            {
+                "text": "openanaccount",
+                "intent": "OpenAccount",
+                "entities": []
+            },
+            {
+                "text": "pay a person",
+                "intent": "PayaPerson",
+                "entities": []
+            },
+            {
+                "text": "pay bill",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "pay bills",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "pay off loan",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "payaperson",
+                "intent": "PayaPerson",
+                "entities": []
+            },
+            {
+                "text": "paybill",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "payment calendar",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "payment calender",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "payment skip",
+                "intent": "SkipaPayment",
+                "entities": []
+            },
+            {
+                "text": "paymentcalendar",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "paymentcalender",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "payments calendar",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "payments calender",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "payoff loan",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "raise a dispute",
+                "intent": "RaiseaDispute",
+                "entities": []
+            },
+            {
+                "text": "raise dispute",
+                "intent": "RaiseaDispute",
+                "entities": []
+            },
+            {
+                "text": "raiseadispute",
+                "intent": "RaiseaDispute",
+                "entities": []
+            },
+            {
+                "text": "raisedispute",
+                "intent": "RaiseaDispute",
+                "entities": []
+            },
+            {
+                "text": "rate",
+                "intent": "Rates",
+                "entities": []
+            },
+            {
+                "text": "rates",
+                "intent": "Rates",
+                "entities": []
+            },
+            {
+                "text": "remote deposit",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "remotedeposit",
+                "intent": "CheckDeposit",
+                "entities": []
+            },
+            {
+                "text": "report fraud",
+                "intent": "ReportFraud",
+                "entities": []
+            },
+            {
+                "text": "reportfraud",
+                "intent": "ReportFraud",
+                "entities": []
+            },
+            {
+                "text": "request a check",
+                "intent": "RequestaCheck",
+                "entities": []
+            },
+            {
+                "text": "request check",
+                "intent": "RequestaCheck",
+                "entities": []
+            },
+            {
+                "text": "requestacheck",
+                "intent": "RequestaCheck",
+                "entities": []
+            },
+            {
+                "text": "requestcheck",
+                "intent": "RequestaCheck",
+                "entities": []
+            },
+            {
+                "text": "rv loan",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "rv loans",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "rvloan",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "rvloans",
+                "intent": "BoatRVLoan",
+                "entities": []
+            },
+            {
+                "text": "schedule a branch appointment",
+                "intent": "ScheduleBranchAppointment",
+                "entities": []
+            },
+            {
+                "text": "schedule appointment",
+                "intent": "ScheduleBranchAppointment",
+                "entities": []
+            },
+            {
+                "text": "schedule branch appointment",
+                "intent": "ScheduleBranchAppointment",
+                "entities": []
+            },
+            {
+                "text": "scheduleappointment",
+                "intent": "ScheduleBranchAppointment",
+                "entities": []
+            },
+            {
+                "text": "schedulebranchappointment",
+                "intent": "ScheduleBranchAppointment",
+                "entities": []
+            },
+            {
+                "text": "scheduled ach account",
+                "intent": "ScheduledACHAccount",
+                "entities": []
+            },
+            {
+                "text": "scheduled credit card transfers",
+                "intent": "ScheduledCreditCardTransfers",
+                "entities": []
+            },
+            {
+                "text": "scheduledachaccount",
+                "intent": "ScheduledACHAccount",
+                "entities": []
+            },
+            {
+                "text": "scheduledcreditcardtransfers",
+                "intent": "ScheduledCreditCardTransfers",
+                "entities": []
+            },
+            {
+                "text": "service request",
+                "intent": "ServiceRequest",
+                "entities": []
+            },
+            {
+                "text": "service requests",
+                "intent": "ServiceRequest",
+                "entities": []
+            },
+            {
+                "text": "servicerequest",
+                "intent": "ServiceRequest",
+                "entities": []
+            },
+            {
+                "text": "servicerequests",
+                "intent": "ServiceRequest",
+                "entities": []
+            },
+            {
+                "text": "skip a payment",
+                "intent": "SkipaPayment",
+                "entities": []
+            },
+            {
+                "text": "skip payment",
+                "intent": "SkipaPayment",
+                "entities": []
+            },
+            {
+                "text": "skipapayment",
+                "intent": "SkipaPayment",
+                "entities": []
+            },
+            {
+                "text": "skippayment",
+                "intent": "SkipaPayment",
+                "entities": []
+            },
+            {
+                "text": "speak to a human",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "speak to an agent",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "statements",
+                "intent": "Statement",
+                "entities": []
+            },
+            {
+                "text": "statements and notices",
+                "intent": "NoticesandStatements",
+                "entities": []
+            },
+            {
+                "text": "statementsandnotices",
+                "intent": "NoticesandStatements",
+                "entities": []
+            },
+            {
+                "text": "stop payment",
+                "intent": "StopPayment",
+                "entities": []
+            },
+            {
+                "text": "stoppayment",
+                "intent": "StopPayment",
+                "entities": []
+            },
+            {
+                "text": "transfer cross account",
+                "intent": "CrossAccountTransfers",
+                "entities": []
+            },
+            {
+                "text": "transfer me",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "transfer me to an agent",
+                "intent": "TalkativeHandOff",
+                "entities": []
+            },
+            {
+                "text": "transfer money",
+                "intent": "TransferMoney",
+                "entities": []
+            },
+            {
+                "text": "transfermoney",
+                "intent": "TransferMoney",
+                "entities": []
+            },
+            {
+                "text": "travel notification",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "travel notifications",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "travel plan",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "travel plans",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "travelling plans",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "travelnotification",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "travelnotifications",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "travelplan",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "travelplans",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "visit a branch",
+                "intent": "VisitaBranch",
+                "entities": []
+            },
+            {
+                "text": "visit branch",
+                "intent": "VisitaBranch",
+                "entities": []
+            },
+            {
+                "text": "visitabranch",
+                "intent": "VisitaBranch",
+                "entities": []
+            },
+            {
+                "text": "visitbranch",
+                "intent": "VisitaBranch",
+                "entities": []
+            },
+            {
+                "text": "what are card controls",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "what are my profile details",
+                "intent": "MyProfile",
+                "entities": []
+            },
+            {
+                "text": "what are the rates",
+                "intent": "Rates",
+                "entities": []
+            },
+            {
+                "text": "what are the travel plans",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "what are the travelling plans",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "what are your branch timings",
+                "intent": "ContactUs",
+                "entities": []
+            },
+            {
+                "text": "what are your current offers",
+                "intent": "MyOffers",
+                "entities": []
+            },
+            {
+                "text": "what can you do?",
+                "intent": "Help",
+                "entities": []
+            },
+            {
+                "text": "what card controls are there",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "what card controls i have",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "what is bill pay",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "what is my account statement",
+                "intent": "Statement",
+                "entities": []
+            },
+            {
+                "text": "what is the rate",
+                "intent": "Rates",
+                "entities": []
+            },
+            {
+                "text": "what offers do you have",
+                "intent": "MyOffers",
+                "entities": []
+            },
+            {
+                "text": "what travel plans are available",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "what travel plans are there",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "where are card controls",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "where can i control my cards",
+                "intent": "CardControls",
+                "entities": []
+            },
+            {
+                "text": "where can i find payment calendar",
+                "intent": "PaymentCalender",
+                "entities": []
+            },
+            {
+                "text": "where can i pay bill",
+                "intent": "BillPay",
+                "entities": []
+            },
+            {
+                "text": "where can i pay off loan",
+                "intent": "LoanPayOff",
+                "entities": []
+            },
+            {
+                "text": "where can i plan travel",
+                "intent": "TravelPlans",
+                "entities": []
+            },
+            {
+                "text": "who am i",
+                "intent": "MyProfile",
+                "entities": []
+            }
+        ]
+    }
+}
