@@ -3,18 +3,13 @@ import pandas as pd
 from ui import inject_custom_css, render_header, render_section_header, render_result_card, render_confidence_row
 from utils import preprocess, load_model, get_dataset_info
 
-# Set page config
 st.set_page_config(
     page_title="Banking Intent Classifier",
     page_icon="🤖",
     layout="centered",
     initial_sidebar_state="expanded"
 )
-
-# Custom CSS for premium styling
 inject_custom_css()
-
-# Load model and dataset info
 model_path = r'C:\Users\anandha.kumar\OneDrive - ClaySys Technologies\Desktop\Code Base\Global search\results\models\intent_classifier.joblib'
 model = load_model(model_path)
 
@@ -23,29 +18,6 @@ num_samples, num_intents, all_intents = get_dataset_info(dataset_path)
 
 # UI Header
 render_header()
-
-# # Sidebar contents
-# with st.sidebar:
-#     st.markdown("### ⚙️ System Status & Config")
-#     if model is not None:
-#         st.success("Model loaded successfully!")
-#         # Inspect model pipeline
-#         try:
-#             tfidf_step = model.named_steps['tfidf']
-#             clf_step = model.named_steps['clf']
-#             st.info(f"**Vectorizer**: TF-IDF (N-grams {tfidf_step.ngram_range})")
-#             st.info(f"**Classifier**: {clf_step.__class__.__name__} (C={clf_step.C})")
-#         except Exception:
-#             st.info("Pipeline: Custom / Scikit-learn Pipeline")
-#     else:
-#         st.error("Model file `intent_classifier.joblib` not found. Please train it first.")
-        
-#     if num_samples is not None:
-#         st.markdown("### 📊 Dataset Properties")
-#         st.write(f"- **Total Training Utterances**: {num_samples}")
-#         st.write(f"- **Unique Intent Categories**: {num_intents}")
-#         with st.expander("Show All Intent Categories"):
-#             st.write(", ".join(sorted(all_intents)))
 
 # Initialize session state for text input if not exists
 if 'query_text_input' not in st.session_state:
@@ -103,12 +75,10 @@ if query_text:
 
         # Display result card using ui module
         render_result_card(query_text, preprocessed, prediction)
-        
         # Show top probabilities chart/bars
         if prob_df is not None:
             render_section_header("📈 Confidence Distribution (Top 5)")
             top_5 = prob_df.head(5)
-            
             for idx, row in top_5.iterrows():
                 intent_name = row['intent']
                 prob_val = row['probability']
