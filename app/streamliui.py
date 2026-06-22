@@ -10,7 +10,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 inject_custom_css()
-model_path = r'C:\Users\anandha.kumar\OneDrive - ClaySys Technologies\Desktop\Code Base\Global search\results\models\intent_classifier.joblib'
+model_path = r'C:\Users\anandha.kumar\OneDrive - ClaySys Technologies\Desktop\Code Base\Global search\intent_classifier.joblib'
 model = load_model(model_path)
 
 dataset_path = r'C:\Users\anandha.kumar\OneDrive - ClaySys Technologies\Desktop\Code Base\Global search\data\SCCU-test.json'

@@ -1,7 +1,8 @@
 import joblib
 import re
 from nltk.stem import PorterStemmer
-
+import pandas as pd
+from evaluation_data import eva_data
 # Load the model
 loaded_pipe = joblib.load('intent_classifier.joblib')
 
@@ -26,10 +27,36 @@ def preprocess(query: str) -> str:
     clean_query = ' '.join(stemmer.stem(word) for word in clean_query.split())
     return clean_query
 
-# Preprocess and predict on new queries
-new_queries = ["transfer money to savings", "pay my bill"]
-preprocessed_queries = [preprocess(q) for q in new_queries]
-predictions = loaded_pipe.predict(preprocessed_queries)
 
-for query, prediction in zip(new_queries, predictions):
-    print(f"Query: '{query}' -> Predicted Intent: '{prediction}'")
+data = eva_data()
+print(f"Successfully loaded evaluation data. Number of samples: {len(data)}")
+        # Show first 5 records as a DataFrame preview
+df = pd.DataFrame(data)
+print("\nPreview of the first 5 records:")
+print(df.head())
+correct_predictions = 0
+total_predictions = len(data)
+for i in range(len(data)):
+
+    query = data[i]['query']
+    actual_intent = data[i]['actual']
+    preprocessed_query = preprocess(query)
+    predicted_intent = loaded_pipe.predict([preprocessed_query])[0]
+    # print(f"Query: '{query}' | Actual Intent: '{actual_intent}' | Predicted Intent: '{predicted_intent}'")
+    if actual_intent == predicted_intent:
+        correct_predictions += 1
+
+print(f"\nCorrect Predictions: {correct_predictions}")
+print(f"Total Predictions: {total_predictions}")
+print(f"Accuracy: {correct_predictions / total_predictions * 100:.2f}%")
+    
+
+
+
+# # Preprocess and predict on new queries
+# new_queries = ["transfer money to savings", "pay my bill"]
+# preprocessed_queries = [preprocess(q) for q in new_queries]
+# predictions = loaded_pipe.predict(preprocessed_queries)
+
+# for query, prediction in zip(new_queries, predictions):
+#     print(f"Query: '{query}' -> Predicted Intent: '{prediction}'")

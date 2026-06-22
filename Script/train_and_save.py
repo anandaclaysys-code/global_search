@@ -27,7 +27,7 @@ def remove_stop_words(text: str) -> str:
 
 def main():
     print("Loading data from SCCU-test.json...")
-    with open('SCCU-test.json', encoding='utf-8') as f:
+    with open(r'C:\Users\anandha.kumar\OneDrive - ClaySys Technologies\Desktop\Code Base\Global search\data\raw\SCCU-test.json', encoding='utf-8') as f:
         raw = json.load(f)
 
     utts = raw['assets']['utterances']

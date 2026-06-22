@@ -1,0 +1,2010 @@
+[
+    {
+        "query": "personal loan",
+        "actual": "PersonalLoan"
+    },
+    {
+        "query": "apply loan",
+        "actual": "ApplyLoan"
+    },
+    {
+        "query": "loan request",
+        "actual": "ApplyLoan"
+    },    
+    {
+        "query": "borrow money",
+        "actual": "PersonalLoan"
+    },
+    {
+        "query": "quick loan",
+        "actual": "ApplyLoan"
+    },
+    {
+        "query": "loan application",
+        "actual": "ApplyLoan"
+    },
+    {
+        "query": "need financing",
+        "actual": "ApplyLoan"
+    },
+    {
+        "query": "instant loan",
+        "actual": "ApplyLoan"
+    },
+    {
+        "query": "home loan",
+        "actual": "ApplyMortgage"
+    },
+    {
+        "query": "mortgage loan",
+        "actual": "ApplyMortgage"
+    },
+    {
+        "query": "housing finance",
+        "actual": "ApplyMortgage"
+    },
+    {
+        "query": "buy house loan",
+        "actual": "ApplyMortgage"
+    },
+    {
+        "query": "property financing",
+        "actual": "ApplyMortgage"
+    },
+    {
+        "query": "mortgage application",
+        "actual": "ApplyMortgage"
+    },
+    {
+        "query": "apartment loan",
+        "actual": "ApplyMortgage"
+    },
+    {
+        "query": "house financing",
+        "actual": "ApplyMortgage"
+    },
+    {
+        "query": "residential loan",
+        "actual": "ApplyMortgage"
+    },
+    {
+        "query": "home mortgage",
+        "actual": "ApplyMortgage"
+    },
+    {
+        "query": "nearest atm",
+        "actual": "ATMLocator"
+    },
+    {
+        "query": "find atm",
+        "actual": "ATMLocator"
+    },
+    {
+        "query": "atm nearby",
+        "actual": "ATMLocator"
+    },
+    {
+        "query": "cash machine",
+        "actual": "ATMLocator"
+    },
+    {
+        "query": "withdraw cash",
+        "actual": "ATMLocator"
+    },
+    {
+        "query": "atm location",
+        "actual": "ATMLocator"
+    },
+    {
+        "query": "bank atm",
+        "actual": "ATMLocator"
+    },
+    {
+        "query": "cash withdrawal point",
+        "actual": "ATMLocator"
+    },
+    {
+        "query": "nearby withdrawal",
+        "actual": "ATMLocator"
+    },
+    {
+        "query": "locate atm",
+        "actual": "ATMLocator"
+    },
+    {
+        "query": "add user",
+        "actual": "AuthorizedUsers"
+    },
+    {
+        "query": "remove user",
+        "actual": "AuthorizedUsers"
+    },
+    {
+        "query": "manage users",
+        "actual": "AuthorizedUsers"
+    },
+    {
+        "query": "shared access",
+        "actual": "AuthorizedUsers"
+    },
+    {
+        "query": "joint account access",
+        "actual": "AuthorizedUsers"
+    },
+    {
+        "query": "authorized member",
+        "actual": "AuthorizedUsers"
+    },
+    {
+        "query": "account permissions",
+        "actual": "AuthorizedUsers"
+    },
+    {
+        "query": "secondary user",
+        "actual": "AuthorizedUsers"
+    },
+    {
+        "query": "user access",
+        "actual": "AuthorizedUsers"
+    },
+    {
+        "query": "add account holder",
+        "actual": "AuthorizedUsers"
+    },
+    {
+        "query": "car loan",
+        "actual": "AutoLoan"
+    },
+    {
+        "query": "vehicle financing",
+        "actual": "AutoLoan"
+    },
+    {
+        "query": "auto financing",
+        "actual": "AutoLoan"
+    },
+    {
+        "query": "buy car loan",
+        "actual": "AutoLoan"
+    },
+    {
+        "query": "automobile loan",
+        "actual": "AutoLoan"
+    },
+    {
+        "query": "truck financing",
+        "actual": "AutoLoan"
+    },
+    {
+        "query": "vehicle loan",
+        "actual": "AutoLoan"
+    },
+    {
+        "query": "used car financing",
+        "actual": "AutoLoan"
+    },
+    {
+        "query": "auto credit",
+        "actual": "AutoLoan"
+    },
+    {
+        "query": "finance my car",
+        "actual": "AutoLoan"
+    },
+    {
+        "query": "pay bill",
+        "actual": "BillPay"
+    },
+    {
+        "query": "utility payment",
+        "actual": "BillPay"
+    },
+    {
+        "query": "internet bill",
+        "actual": "BillPay"
+    },
+    {
+        "query": "electricity payment",
+        "actual": "BillPay"
+    },
+    {
+        "query": "water bill",
+        "actual": "BillPay"
+    },
+    {
+        "query": "mobile recharge",
+        "actual": "BillPay"
+    },
+    {
+        "query": "bill transfer",
+        "actual": "BillPay"
+    },
+    {
+        "query": "monthly payment",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "pay utilities",
+        "actual": "BillPay"
+    },
+    {
+        "query": "boat loan",
+        "actual": "BoatRVLoan"
+    },
+    {
+        "query": "rv financing",
+        "actual": "BoatRVLoan"
+    },
+    {
+        "query": "camper loan",
+        "actual": "BoatRVLoan"
+    },
+    {
+        "query": "marine financing",
+        "actual": "BoatRVLoan"
+    },
+    {
+        "query": "recreational vehicle loan",
+        "actual": "BoatRVLoan"
+    },
+    {
+        "query": "watercraft financing",
+        "actual": "BoatRVLoan"
+    },
+    {
+        "query": "motorhome loan",
+        "actual": "BoatRVLoan"
+    },
+    {
+        "query": "boat financing",
+        "actual": "BoatRVLoan"
+    },
+    {
+        "query": "travel trailer loan",
+        "actual": "BoatRVLoan"
+    },
+    {
+        "query": "rv loan",
+        "actual": "BoatRVLoan"
+    },
+    {
+        "query": "freeze card",
+        "actual": "CardControls"
+    },
+    {
+        "query": "lock debit card",
+        "actual": "CardControls"
+    },
+    {
+        "query": "unlock my card",
+        "actual": "CardControls"
+    },
+    {
+        "query": "disable card",
+        "actual": "CardControls"
+    },
+    {
+        "query": "card settings",
+        "actual": "CardControls"
+    },
+    {
+        "query": "manage card",
+        "actual": "CardControls"
+    },
+    {
+        "query": "block my card",
+        "actual": "CardControls"
+    },
+    {
+        "query": "turn off card",
+        "actual": "CardControls"
+    },
+    {
+        "query": "card restrictions",
+        "actual": "CardControls"
+    },
+    {
+        "query": "secure my card",
+        "actual": "CardControls"
+    },
+    {
+        "query": "change due date",
+        "actual": "ChangeLoanDueDate"
+    },
+    {
+        "query": "loan payment date",
+        "actual": "ChangeLoanDueDate"
+    },
+    {
+        "query": "reschedule loan",
+        "actual": "ChangeLoanDueDate"
+    },
+    {
+        "query": "modify due date",
+        "actual": "ChangeLoanDueDate"
+    },
+    {
+        "query": "update payment day",
+        "actual": "ChangeLoanDueDate"
+    },
+    {
+        "query": "move loan due date",
+        "actual": "ChangeLoanDueDate"
+    },
+    {
+        "query": "change billing cycle",
+        "actual": "ChangeLoanDueDate"
+    },
+    {
+        "query": "adjust loan schedule",
+        "actual": "ChangeLoanDueDate"
+    },
+    {
+        "query": "loan due modification",
+        "actual": "ChangeLoanDueDate"
+    },
+    {
+        "query": "new payment date",
+        "actual": "ChangeLoanDueDate"
+    },
+    {
+        "query": "deposit check",
+        "actual": "CheckDeposit"
+    },
+    {
+        "query": "mobile deposit",
+        "actual": "CheckDeposit"
+    },
+    {
+        "query": "upload check",
+        "actual": "CheckDeposit"
+    },
+    {
+        "query": "scan cheque",
+        "actual": "CheckDeposit"
+    },
+    {
+        "query": "check image",
+        "actual": "CheckDeposit"
+    },
+    {
+        "query": "remote deposit",
+        "actual": "CheckDeposit"
+    },
+    {
+        "query": "deposit cheque",
+        "actual": "CheckDeposit"
+    },
+    {
+        "query": "capture check",
+        "actual": "CheckDeposit"
+    },
+    {
+        "query": "online deposit",
+        "actual": "CheckDeposit"
+    },
+    {
+        "query": "bank check upload",
+        "actual": "CheckDeposit"
+    },
+    {
+        "query": "contact support",
+        "actual": "ContactUs"
+    },
+    {
+        "query": "customer service",
+        "actual": "ContactUs"
+    },
+    {
+        "query": "call bank",
+        "actual": "ContactUs"
+    },
+    {
+        "query": "support number",
+        "actual": "ContactUs"
+    },
+    {
+        "query": "help desk",
+        "actual": "ContactUs"
+    },
+    {
+        "query": "reach support",
+        "actual": "ContactUs"
+    },
+    {
+        "query": "bank contact",
+        "actual": "ContactUs"
+    },
+    {
+        "query": "talk to support",
+        "actual": "ContactUs"
+    },
+    {
+        "query": "contact center",
+        "actual": "ContactUs"
+    },
+    {
+        "query": "support assistance",
+        "actual": "ContactUs"
+    },
+    {
+        "query": "transfer between accounts",
+        "actual": "CrossAccountTransfers"
+    },
+    {
+        "query": "move funds internally",
+        "actual": "CrossAccountTransfers"
+    },
+    {
+        "query": "account to account transfer",
+        "actual": "CrossAccountTransfers"
+    },
+    {
+        "query": "internal money transfer",
+        "actual": "CrossAccountTransfers"
+    },
+    {
+        "query": "send funds between accounts",
+        "actual": "CrossAccountTransfers"
+    },
+    {
+        "query": "cross account payment",
+        "actual": "CrossAccountTransfers"
+    },
+    {
+        "query": "shift balance",
+        "actual": "CrossAccountTransfers"
+    },
+    {
+        "query": "move money to another account",
+        "actual": "CrossAccountTransfers"
+    },
+    {
+        "query": "bank account transfer",
+        "actual": "CrossAccountTransfers"
+    },
+    {
+        "query": "fund transfer",
+        "actual": "CrossAccountTransfers"
+    },
+    {
+        "query": "open dashboard",
+        "actual": "Dashboard"
+    },
+    {
+        "query": "main screen",
+        "actual": "Dashboard"
+    },
+    {
+        "query": "home page",
+        "actual": "Dashboard"
+    },
+    {
+        "query": "dashboard view",
+        "actual": "Dashboard"
+    },
+    {
+        "query": "go to dashboard",
+        "actual": "Dashboard"
+    },
+    {
+        "query": "account overview",
+        "actual": "Dashboard"
+    },
+    {
+        "query": "summary page",
+        "actual": "Dashboard"
+    },
+    {
+        "query": "banking homepage",
+        "actual": "Dashboard"
+    },
+    {
+        "query": "main account page",
+        "actual": "Dashboard"
+    },
+    {
+        "query": "dashboard access",
+        "actual": "Dashboard"
+    },
+    {
+        "query": "add external account",
+        "actual": "ExternalACHAccount"
+    },
+    {
+        "query": "link bank account",
+        "actual": "ExternalACHAccount"
+    },
+    {
+        "query": "external ach",
+        "actual": "ExternalACHAccount"
+    },
+    {
+        "query": "connect another bank",
+        "actual": "ExternalACHAccount"
+    },
+    {
+        "query": "add outside account",
+        "actual": "ExternalACHAccount"
+    },
+    {
+        "query": "bank account linking",
+        "actual": "ExternalACHAccount"
+    },
+    {
+        "query": "attach external bank",
+        "actual": "ExternalACHAccount"
+    },
+    {
+        "query": "external transfer account",
+        "actual": "ExternalACHAccount"
+    },
+    {
+        "query": "setup ach account",
+        "actual": "ExternalACHAccount"
+    },
+    {
+        "query": "register external account",
+        "actual": "ExternalACHAccount"
+    },
+    {
+        "query": "frequently asked questions",
+        "actual": "FAQs"
+    },
+    {
+        "query": "common questions",
+        "actual": "FAQs"
+    },
+    {
+        "query": "faq section",
+        "actual": "FAQs"
+    },
+    {
+        "query": "help articles",
+        "actual": "FAQs"
+    },
+    {
+        "query": "popular questions",
+        "actual": "FAQs"
+    },
+    {
+        "query": "knowledge base",
+        "actual": "FAQs"
+    },
+    {
+        "query": "support faqs",
+        "actual": "FAQs"
+    },
+    {
+        "query": "general help",
+        "actual": "FAQs"
+    },
+    {
+        "query": "question answers",
+        "actual": "FAQs"
+    },
+    {
+        "query": "customer faqs",
+        "actual": "FAQs"
+    },
+    {
+        "query": "help",
+        "actual": "Help"
+    },
+    {
+        "query": "need assistance",
+        "actual": "Help"
+    },
+    {
+        "query": "support",
+        "actual": "Help"
+    },
+    {
+        "query": "can you help",
+        "actual": "Help"
+    },
+    {
+        "query": "i need help",
+        "actual": "Help"
+    },
+    {
+        "query": "assist me",
+        "actual": "Help"
+    },
+    {
+        "query": "help please",
+        "actual": "Help"
+    },
+    {
+        "query": "guidance",
+        "actual": "Help"
+    },
+    {
+        "query": "support needed",
+        "actual": "Help"
+    },
+    {
+        "query": "need support",
+        "actual": "Help"
+    },
+    {
+        "query": "home equity loan",
+        "actual": "HomeEquityLoan"
+    },
+    {
+        "query": "borrow against house",
+        "actual": "HomeEquityLoan"
+    },
+    {
+        "query": "equity financing",
+        "actual": "HomeEquityLoan"
+    },
+    {
+        "query": "house equity",
+        "actual": "HomeEquityLoan"
+    },
+    {
+        "query": "property equity loan",
+        "actual": "HomeEquityLoan"
+    },
+    {
+        "query": "equity credit line",
+        "actual": "HomeEquityLoan"
+    },
+    {
+        "query": "home collateral loan",
+        "actual": "HomeEquityLoan"
+    },
+    {
+        "query": "loan on house value",
+        "actual": "HomeEquityLoan"
+    },
+    {
+        "query": "equity cash out",
+        "actual": "HomeEquityLoan"
+    },
+    {
+        "query": "home value financing",
+        "actual": "HomeEquityLoan"
+    },
+    {
+        "query": "pay off loan",
+        "actual": "LoanPayOff"
+    },
+    {
+        "query": "loan payoff",
+        "actual": "LoanPayOff"
+    },
+    {
+        "query": "close my loan",
+        "actual": "LoanPayOff"
+    },
+    {
+        "query": "settle loan balance",
+        "actual": "LoanPayOff"
+    },
+    {
+        "query": "final loan payment",
+        "actual": "LoanPayOff"
+    },
+    {
+        "query": "loan closure",
+        "actual": "LoanPayOff"
+    },
+    {
+        "query": "complete loan payment",
+        "actual": "LoanPayOff"
+    },
+    {
+        "query": "remaining loan amount",
+        "actual": "LoanPayOff"
+    },
+    {
+        "query": "loan settlement",
+        "actual": "LoanPayOff"
+    },
+    {
+        "query": "finish loan",
+        "actual": "LoanPayOff"
+    },
+    {
+        "query": "loan services",
+        "actual": "LoanServices"
+    },
+    {
+        "query": "manage my loan",
+        "actual": "LoanServices"
+    },
+    {
+        "query": "loan support",
+        "actual": "LoanServices"
+    },
+    {
+        "query": "loan account help",
+        "actual": "LoanServices"
+    },
+    {
+        "query": "loan information",
+        "actual": "LoanServices"
+    },
+    {
+        "query": "loan management",
+        "actual": "LoanServices"
+    },
+    {
+        "query": "loan assistance",
+        "actual": "LoanServices"
+    },
+    {
+        "query": "servicing my loan",
+        "actual": "LoanServices"
+    },
+    {
+        "query": "loan details",
+        "actual": "LoanServices"
+    },
+    {
+        "query": "loan account services",
+        "actual": "LoanServices"
+    },
+    {
+        "query": "messages",
+        "actual": "Message"
+    },
+    {
+        "query": "inbox",
+        "actual": "Message"
+    },
+    {
+        "query": "secure messages",
+        "actual": "Message"
+    },
+    {
+        "query": "view messages",
+        "actual": "Message"
+    },
+    {
+        "query": "bank notifications",
+        "actual": "Message"
+    },
+    {
+        "query": "message center",
+        "actual": "Message"
+    },
+    {
+        "query": "read alerts",
+        "actual": "Message"
+    },
+    {
+        "query": "my inbox",
+        "actual": "Message"
+    },
+    {
+        "query": "new message",
+        "actual": "Message"
+    },
+    {
+        "query": "check notifications",
+        "actual": "Message"
+    },
+    {
+        "query": "my offers",
+        "actual": "MyOffers"
+    },
+    {
+        "query": "available offers",
+        "actual": "MyOffers"
+    },
+    {
+        "query": "special deals",
+        "actual": "MyOffers"
+    },
+    {
+        "query": "bank promotions",
+        "actual": "MyOffers"
+    },
+    {
+        "query": "reward offers",
+        "actual": "MyOffers"
+    },
+    {
+        "query": "loan offers",
+        "actual": "MyOffers"
+    },
+    {
+        "query": "credit card offers",
+        "actual": "MyOffers"
+    },
+    {
+        "query": "personalized offers",
+        "actual": "MyOffers"
+    },
+    {
+        "query": "discount offers",
+        "actual": "MyOffers"
+    },
+    {
+        "query": "show promotions",
+        "actual": "MyOffers"
+    },
+    {
+        "query": "my profile",
+        "actual": "MyProfile"
+    },
+    {
+        "query": "profile settings",
+        "actual": "MyProfile"
+    },
+    {
+        "query": "update profile",
+        "actual": "MyProfile"
+    },
+    {
+        "query": "edit account details",
+        "actual": "MyProfile"
+    },
+    {
+        "query": "change phone number",
+        "actual": "MyProfile"
+    },
+    {
+        "query": "update email",
+        "actual": "MyProfile"
+    },
+    {
+        "query": "personal information",
+        "actual": "MyProfile"
+    },
+    {
+        "query": "account profile",
+        "actual": "MyProfile"
+    },
+    {
+        "query": "manage profile",
+        "actual": "MyProfile"
+    },
+    {
+        "query": "profile information",
+        "actual": "MyProfile"
+    },
+    {
+        "query": "go to page",
+        "actual": "Navigate"
+    },
+    {
+        "query": "open section",
+        "actual": "Navigate"
+    },
+    {
+        "query": "show menu",
+        "actual": "Navigate"
+    },
+    {
+        "query": "move to dashboard",
+        "actual": "Navigate"
+    },
+    {
+        "query": "open banking page",
+        "actual": "Navigate"
+    },
+    {
+        "query": "switch page",
+        "actual": "Navigate"
+    },
+    {
+        "query": "go back home",
+        "actual": "Navigate"
+    },
+    {
+        "query": "page navigation",
+        "actual": "Navigate"
+    },
+    {
+        "query": "take me to transfers",
+        "actual": "Navigate"
+    },
+    {
+        "query": "go to statements",
+        "actual": "Navigate"
+    },
+    {
+        "query": "navigate to loans",
+        "actual": "Navigate"
+    },
+    {
+        "query": "show account section",
+        "actual": "Navigate"
+    },
+    {
+        "query": "move to payments",
+        "actual": "Navigate"
+    },
+    {
+        "query": "open card controls",
+        "actual": "Navigate"
+    },
+    {
+        "query": "switch to profile page",
+        "actual": "Navigate"
+    },
+    {
+        "query": "bank statements",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "monthly statements",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "account notices",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "download statement",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "view documents",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "statement history",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "e statements",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "account documents",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "transaction statements",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "paperless statements",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "financial documents",
+        "actual": "NoticesandStatements"
+    },
+    {
+        "query": "digital banking",
+        "actual": "OnlineMobileBanking"
+    },
+    {
+        "query": "bank login",
+        "actual": "OnlineMobileBanking"
+    },
+    {
+        "query": "access online account",
+        "actual": "OnlineMobileBanking"
+    },
+    {
+        "query": "mobile app login",
+        "actual": "OnlineMobileBanking"
+    },
+    {
+        "query": "online banking support",
+        "actual": "OnlineMobileBanking"
+    },
+    {
+        "query": "reset banking password",
+        "actual": "OnlineMobileBanking"
+    },
+    {
+        "query": "unlock online account",
+        "actual": "OnlineMobileBanking"
+    },
+    {
+        "query": "bank app issues",
+        "actual": "OnlineMobileBanking"
+    },
+    {
+        "query": "web banking",
+        "actual": "OnlineMobileBanking"
+    },
+    {
+        "query": "mobile account access",
+        "actual": "OnlineMobileBanking"
+    },
+    {
+        "query": "new bank account",
+        "actual": "OpenAccount"
+    },
+    {
+        "query": "create savings account",
+        "actual": "OpenAccount"
+    },
+    {
+        "query": "start checking account",
+        "actual": "OpenAccount"
+    },
+    {
+        "query": "account opening",
+        "actual": "OpenAccount"
+    },
+    {
+        "query": "open new account",
+        "actual": "OpenAccount"
+    },
+    {
+        "query": "bank account signup",
+        "actual": "OpenAccount"
+    },
+    {
+        "query": "register bank account",
+        "actual": "OpenAccount"
+    },
+    {
+        "query": "setup new account",
+        "actual": "OpenAccount"
+    },
+    {
+        "query": "open banking account",
+        "actual": "OpenAccount"
+    },
+    {
+        "query": "start bank account",
+        "actual": "OpenAccount"
+    },
+    {
+        "query": "replace checkbook",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "order checks",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "new checkbook",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "request checks",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "check order",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "buy checkbook",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "reorder checks",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "paper checks",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "checkbook request",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "mail checks",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "personal checks",
+        "actual": "OrderaCheck"
+    },
+    {
+        "query": "send money",
+        "actual": "PayaPerson"
+    },
+    {
+        "query": "pay a friend",
+        "actual": "PayaPerson"
+    },
+    {
+        "query": "person to person payment",
+        "actual": "PayaPerson"
+    },
+    {
+        "query": "transfer to someone",
+        "actual": "PayaPerson"
+    },
+    {
+        "query": "pay contact",
+        "actual": "PayaPerson"
+    },
+    {
+        "query": "money transfer friend",
+        "actual": "PayaPerson"
+    },
+    {
+        "query": "peer payment",
+        "actual": "PayaPerson"
+    },
+    {
+        "query": "send cash",
+        "actual": "PayaPerson"
+    },
+    {
+        "query": "pay another person",
+        "actual": "PayaPerson"
+    },
+    {
+        "query": "quick payment",
+        "actual": "PayaPerson"
+    },
+    {
+        "query": "next payment date",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "payment planner",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "future payments",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "payment tracker",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "loan payment dates",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "payment agenda",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "bill payment calendar",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "payment due schedule",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "payment organizer",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "view due payments",
+        "actual": "PaymentCalender"
+    },
+    {
+        "query": "personal loan",
+        "actual": "PersonalLoan"
+    },
+    {
+        "query": "personal financing",
+        "actual": "PersonalLoan"
+    },
+    {
+        "query": "borrow cash",
+        "actual": "PersonalLoan"
+    },
+    {
+        "query": "consumer loan",
+        "actual": "PersonalLoan"
+    },
+    {
+        "query": "quick personal loan",
+        "actual": "PersonalLoan"
+    },
+    {
+        "query": "money borrowing",
+        "actual": "PersonalLoan"
+    },
+    {
+        "query": "short term loan",
+        "actual": "PersonalLoan"
+    },
+    {
+        "query": "personal credit",
+        "actual": "PersonalLoan"
+    },
+    {
+        "query": "raise dispute",
+        "actual": "RaiseaDispute"
+    },
+    {
+        "query": "report transaction issue",
+        "actual": "RaiseaDispute"
+    },
+    {
+        "query": "wrong charge",
+        "actual": "RaiseaDispute"
+    },
+    {
+        "query": "dispute payment",
+        "actual": "RaiseaDispute"
+    },
+    {
+        "query": "unauthorized transaction",
+        "actual": "RaiseaDispute"
+    },
+    {
+        "query": "billing dispute",
+        "actual": "RaiseaDispute"
+    },
+    {
+        "query": "incorrect debit",
+        "actual": "RaiseaDispute"
+    },
+    {
+        "query": "chargeback request",
+        "actual": "RaiseaDispute"
+    },
+    {
+        "query": "payment complaint",
+        "actual": "RaiseaDispute"
+    },
+    {
+        "query": "transaction dispute",
+        "actual": "RaiseaDispute"
+    },
+    {
+        "query": "interest rates",
+        "actual": "Rates"
+    },
+    {
+        "query": "loan rates",
+        "actual": "Rates"
+    },
+    {
+        "query": "mortgage rates",
+        "actual": "Rates"
+    },
+    {
+        "query": "current rates",
+        "actual": "Rates"
+    },
+    {
+        "query": "savings rates",
+        "actual": "Rates"
+    },
+    {
+        "query": "credit card rates",
+        "actual": "Rates"
+    },
+    {
+        "query": "bank interest",
+        "actual": "Rates"
+    },
+    {
+        "query": "apr details",
+        "actual": "Rates"
+    },
+    {
+        "query": "finance rates",
+        "actual": "Rates"
+    },
+    {
+        "query": "rate information",
+        "actual": "Rates"
+    },
+    {
+        "query": "report fraud",
+        "actual": "ReportFraud"
+    },
+    {
+        "query": "fraud alert",
+        "actual": "ReportFraud"
+    },
+    {
+        "query": "suspicious transaction",
+        "actual": "ReportFraud"
+    },
+    {
+        "query": "unauthorized activity",
+        "actual": "ReportFraud"
+    },
+    {
+        "query": "card fraud",
+        "actual": "ReportFraud"
+    },
+    {
+        "query": "fake transaction",
+        "actual": "ReportFraud"
+    },
+    {
+        "query": "report scam",
+        "actual": "ReportFraud"
+    },
+    {
+        "query": "account fraud",
+        "actual": "ReportFraud"
+    },
+    {
+        "query": "fraud complaint",
+        "actual": "ReportFraud"
+    },
+    {
+        "query": "security issue",
+        "actual": "ReportFraud"
+    },
+    {
+        "query": "request check",
+        "actual": "RequestaCheck"
+    },
+    {
+        "query": "cashier check",
+        "actual": "RequestaCheck"
+    },
+    {
+        "query": "bank check request",
+        "actual": "RequestaCheck"
+    },
+    {
+        "query": "official check",
+        "actual": "RequestaCheck"
+    },
+    {
+        "query": "need a check",
+        "actual": "RequestaCheck"
+    },
+    {
+        "query": "certified check",
+        "actual": "RequestaCheck"
+    },
+    {
+        "query": "issue bank check",
+        "actual": "RequestaCheck"
+    },
+    {
+        "query": "request cashier cheque",
+        "actual": "RequestaCheck"
+    },
+    {
+        "query": "bank draft request",
+        "actual": "RequestaCheck"
+    },
+    {
+        "query": "payment check",
+        "actual": "RequestaCheck"
+    },
+    {
+        "query": "branch appointment",
+        "actual": "ScheduleBranchAppointment"
+    },
+    {
+        "query": "schedule meeting",
+        "actual": "ScheduleBranchAppointment"
+    },
+    {
+        "query": "book appointment",
+        "actual": "ScheduleBranchAppointment"
+    },
+    {
+        "query": "visit branch",
+        "actual": "ScheduleBranchAppointment"
+    },
+    {
+        "query": "branch booking",
+        "actual": "ScheduleBranchAppointment"
+    },
+    {
+        "query": "bank appointment",
+        "actual": "ScheduleBranchAppointment"
+    },
+    {
+        "query": "meet banker",
+        "actual": "ScheduleBranchAppointment"
+    },
+    {
+        "query": "appointment scheduling",
+        "actual": "ScheduleBranchAppointment"
+    },
+    {
+        "query": "reserve branch visit",
+        "actual": "ScheduleBranchAppointment"
+    },
+    {
+        "query": "set branch appointment",
+        "actual": "ScheduleBranchAppointment"
+    },
+    {
+        "query": "scheduled ach",
+        "actual": "ScheduledACHAccount"
+    },
+    {
+        "query": "automatic ach transfer",
+        "actual": "ScheduledACHAccount"
+    },
+    {
+        "query": "ach payment schedule",
+        "actual": "ScheduledACHAccount"
+    },
+    {
+        "query": "recurring ach",
+        "actual": "ScheduledACHAccount"
+    },
+    {
+        "query": "future ach transfer",
+        "actual": "ScheduledACHAccount"
+    },
+    {
+        "query": "schedule bank transfer",
+        "actual": "ScheduledACHAccount"
+    },
+    {
+        "query": "ach automation",
+        "actual": "ScheduledACHAccount"
+    },
+    {
+        "query": "planned ach payment",
+        "actual": "ScheduledACHAccount"
+    },
+    {
+        "query": "scheduled external transfer",
+        "actual": "ScheduledACHAccount"
+    },
+    {
+        "query": "ach recurring payment",
+        "actual": "ScheduledACHAccount"
+    },
+    {
+        "query": "scheduled card payment",
+        "actual": "ScheduledCreditCardTransfers"
+    },
+    {
+        "query": "automatic credit payment",
+        "actual": "ScheduledCreditCardTransfers"
+    },
+    {
+        "query": "recurring card transfer",
+        "actual": "ScheduledCreditCardTransfers"
+    },
+    {
+        "query": "future credit payment",
+        "actual": "ScheduledCreditCardTransfers"
+    },
+    {
+        "query": "credit card schedule",
+        "actual": "ScheduledCreditCardTransfers"
+    },
+    {
+        "query": "planned card transfer",
+        "actual": "ScheduledCreditCardTransfers"
+    },
+    {
+        "query": "auto pay credit card",
+        "actual": "ScheduledCreditCardTransfers"
+    },
+    {
+        "query": "credit card automation",
+        "actual": "ScheduledCreditCardTransfers"
+    },
+    {
+        "query": "schedule card bill",
+        "actual": "ScheduledCreditCardTransfers"
+    },
+    {
+        "query": "scheduled payment transfer",
+        "actual": "ScheduledCreditCardTransfers"
+    },
+    {
+        "query": "scheduled transfer",
+        "actual": "ScheduledInternalTransfer"
+    },
+    {
+        "query": "future internal transfer",
+        "actual": "ScheduledInternalTransfer"
+    },
+    {
+        "query": "automatic transfer",
+        "actual": "ScheduledInternalTransfer"
+    },
+    {
+        "query": "recurring account transfer",
+        "actual": "ScheduledInternalTransfer"
+    },
+    {
+        "query": "planned money transfer",
+        "actual": "ScheduledInternalTransfer"
+    },
+    {
+        "query": "internal transfer setup",
+        "actual": "ScheduledInternalTransfer"
+    },
+    {
+        "query": "schedule fund movement",
+        "actual": "ScheduledInternalTransfer"
+    },
+    {
+        "query": "auto account transfer",
+        "actual": "ScheduledInternalTransfer"
+    },
+    {
+        "query": "transfer scheduling",
+        "actual": "ScheduledInternalTransfer"
+    },
+    {
+        "query": "future balance transfer",
+        "actual": "ScheduledInternalTransfer"
+    },
+    {
+        "query": "service request",
+        "actual": "ServiceRequest"
+    },
+    {
+        "query": "submit request",
+        "actual": "ServiceRequest"
+    },
+    {
+        "query": "customer request",
+        "actual": "ServiceRequest"
+    },
+    {
+        "query": "bank service help",
+        "actual": "ServiceRequest"
+    },
+    {
+        "query": "request support",
+        "actual": "ServiceRequest"
+    },
+    {
+        "query": "open service ticket",
+        "actual": "ServiceRequest"
+    },
+    {
+        "query": "bank assistance request",
+        "actual": "ServiceRequest"
+    },
+    {
+        "query": "service inquiry",
+        "actual": "ServiceRequest"
+    },
+    {
+        "query": "support request",
+        "actual": "ServiceRequest"
+    },
+    {
+        "query": "request banking service",
+        "actual": "ServiceRequest"
+    },
+    {
+        "query": "skip payment",
+        "actual": "SkipaPayment"
+    },
+    {
+        "query": "pause loan payment",
+        "actual": "SkipaPayment"
+    },
+    {
+        "query": "defer payment",
+        "actual": "SkipaPayment"
+    },
+    {
+        "query": "miss this payment",
+        "actual": "SkipaPayment"
+    },
+    {
+        "query": "delay monthly payment",
+        "actual": "SkipaPayment"
+    },
+    {
+        "query": "payment holiday",
+        "actual": "SkipaPayment"
+    },
+    {
+        "query": "postpone payment",
+        "actual": "SkipaPayment"
+    },
+    {
+        "query": "skip this month",
+        "actual": "SkipaPayment"
+    },
+    {
+        "query": "temporary payment stop",
+        "actual": "SkipaPayment"
+    },
+    {
+        "query": "hold payment",
+        "actual": "SkipaPayment"
+    },
+    {
+        "query": "@@@###",
+        "actual": "SpecialCharacters"
+    },
+    {
+        "query": "$$$%%%^^^",
+        "actual": "SpecialCharacters"
+    },
+    {
+        "query": "!!!@@@",
+        "actual": "SpecialCharacters"
+    },
+    {
+        "query": "&&&***",
+        "actual": "SpecialCharacters"
+    },
+    {
+        "query": "###$$$",
+        "actual": "SpecialCharacters"
+    },
+    {
+        "query": "@#%^&*",
+        "actual": "SpecialCharacters"
+    },
+    {
+        "query": "((()))",
+        "actual": "SpecialCharacters"
+    },
+    {
+        "query": "***!!!",
+        "actual": "SpecialCharacters"
+    },
+    {
+        "query": "???///",
+        "actual": "SpecialCharacters"
+    },
+    {
+        "query": "+++===",
+        "actual": "SpecialCharacters"
+    },
+    {
+        "query": "account statement",
+        "actual": "Statement"
+    },
+    {
+        "query": "bank statement",
+        "actual": "Statement"
+    },
+    {
+        "query": "download statement",
+        "actual": "Statement"
+    },
+    {
+        "query": "monthly statement",
+        "actual": "Statement"
+    },
+    {
+        "query": "statement copy",
+        "actual": "Statement"
+    },
+    {
+        "query": "view transactions",
+        "actual": "Statement"
+    },
+    {
+        "query": "statement history",
+        "actual": "Statement"
+    },
+    {
+        "query": "transaction statement",
+        "actual": "Statement"
+    },
+    {
+        "query": "statement pdf",
+        "actual": "Statement"
+    },
+    {
+        "query": "recent statement",
+        "actual": "Statement"
+    },
+    {
+        "query": "stop payment",
+        "actual": "StopPayment"
+    },
+    {
+        "query": "cancel payment",
+        "actual": "StopPayment"
+    },
+    {
+        "query": "block payment",
+        "actual": "StopPayment"
+    },
+    {
+        "query": "halt transaction",
+        "actual": "StopPayment"
+    },
+    {
+        "query": "payment cancellation",
+        "actual": "StopPayment"
+    },
+    {
+        "query": "void payment",
+        "actual": "StopPayment"
+    },
+    {
+        "query": "cancel check payment",
+        "actual": "StopPayment"
+    },
+    {
+        "query": "stop pending payment",
+        "actual": "StopPayment"
+    },
+    {
+        "query": "freeze payment",
+        "actual": "StopPayment"
+    },
+    {
+        "query": "terminate payment",
+        "actual": "StopPayment"
+    },
+    {
+        "query": "talk to agent",
+        "actual": "TalkativeHandOff"
+    },
+    {
+        "query": "human support",
+        "actual": "TalkativeHandOff"
+    },
+    {
+        "query": "live representative",
+        "actual": "TalkativeHandOff"
+    },
+    {
+        "query": "customer agent",
+        "actual": "TalkativeHandOff"
+    },
+    {
+        "query": "speak to human",
+        "actual": "TalkativeHandOff"
+    },
+    {
+        "query": "connect to support",
+        "actual": "TalkativeHandOff"
+    },
+    {
+        "query": "real person",
+        "actual": "TalkativeHandOff"
+    },
+    {
+        "query": "need human assistance",
+        "actual": "TalkativeHandOff"
+    },
+    {
+        "query": "transfer to agent",
+        "actual": "TalkativeHandOff"
+    },
+    {
+        "query": "live chat support",
+        "actual": "TalkativeHandOff"
+    },
+    {
+        "query": "transfer money",
+        "actual": "TransferMoney"
+    },
+    {
+        "query": "send funds",
+        "actual": "TransferMoney"
+    },
+    {
+        "query": "move money",
+        "actual": "TransferMoney"
+    },
+    {
+        "query": "bank transfer",
+        "actual": "TransferMoney"
+    },
+    {
+        "query": "money transfer",
+        "actual": "TransferMoney"
+    },
+    {
+        "query": "send payment",
+        "actual": "TransferMoney"
+    },
+    {
+        "query": "transfer cash",
+        "actual": "TransferMoney"
+    },
+    {
+        "query": "wire transfer",
+        "actual": "TransferMoney"
+    },
+    {
+        "query": "move funds",
+        "actual": "TransferMoney"
+    },
+    {
+        "query": "account transfer",
+        "actual": "TransferMoney"
+    },
+    {
+        "query": "fund transfer menu",
+        "actual": "Transfers"
+    },
+    {
+        "query": "manage transfers",
+        "actual": "Transfers"
+    },
+    {
+        "query": "transfer options",
+        "actual": "Transfers"
+    },
+    {
+        "query": "transfer services",
+        "actual": "Transfers"
+    },
+    {
+        "query": "money movement",
+        "actual": "Transfers"
+    },
+    {
+        "query": "bank transfers",
+        "actual": "Transfers"
+    },
+    {
+        "query": "fund transfer menu",
+        "actual": "Transfers"
+    },
+    {
+        "query": "transfer management",
+        "actual": "Transfers"
+    },
+    {
+        "query": "payment transfers",
+        "actual": "Transfers"
+    },
+    {
+        "query": "all transfers",
+        "actual": "Transfers"
+    },
+    {
+        "query": "travel plans",
+        "actual": "TravelPlans"
+    },
+    {
+        "query": "travel notice",
+        "actual": "TravelPlans"
+    },
+    {
+        "query": "vacation alert",
+        "actual": "TravelPlans"
+    },
+    {
+        "query": "travel notification",
+        "actual": "TravelPlans"
+    },
+    {
+        "query": "international travel",
+        "actual": "TravelPlans"
+    },
+    {
+        "query": "trip notice",
+        "actual": "TravelPlans"
+    },
+    {
+        "query": "travel card alert",
+        "actual": "TravelPlans"
+    },
+    {
+        "query": "notify travel",
+        "actual": "TravelPlans"
+    },
+    {
+        "query": "travel update",
+        "actual": "TravelPlans"
+    },
+    {
+        "query": "out of country notice",
+        "actual": "TravelPlans"
+    },
+    {
+        "query": "branch locator",
+        "actual": "VisitaBranch"
+    },
+    {
+        "query": "closest bank office",
+        "actual": "VisitaBranch"
+    },
+    {
+        "query": "physical branch",
+        "actual": "VisitaBranch"
+    },
+    {
+        "query": "bank branch address",
+        "actual": "VisitaBranch"
+    },
+    {
+        "query": "nearby banking center",
+        "actual": "VisitaBranch"
+    },
+    {
+        "query": "walk in branch",
+        "actual": "VisitaBranch"
+    },
+    {
+        "query": "branch services",
+        "actual": "VisitaBranch"
+    },
+    {
+        "query": "branch map",
+        "actual": "VisitaBranch"
+    },
+    {
+        "query": "visit local branch",
+        "actual": "VisitaBranch"
+    },
+    {
+        "query": "bank office location",
+        "actual": "VisitaBranch"
+    },
+    {
+        "query": "external loan payment",
+        "actual": "ExternalLoanPayments"
+    },
+    {
+        "query": "pay outside loan",
+        "actual": "ExternalLoanPayments"
+    },
+    {
+        "query": "loan payment transfer",
+        "actual": "ExternalLoanPayments"
+    },
+    {
+        "query": "pay external lender",
+        "actual": "ExternalLoanPayments"
+    },
+    {
+        "query": "third party loan payment",
+        "actual": "ExternalLoanPayments"
+    },
+    {
+        "query": "external financing payment",
+        "actual": "ExternalLoanPayments"
+    },
+    {
+        "query": "loan payoff transfer",
+        "actual": "ExternalLoanPayments"
+    },
+    {
+        "query": "outside bank loan payment",
+        "actual": "ExternalLoanPayments"
+    },
+    {
+        "query": "external creditor payment",
+        "actual": "ExternalLoanPayments"
+    },
+    {
+        "query": "pay non bank loan",
+        "actual": "ExternalLoanPayments"
+    },
+    {
+        "query": "account balance",
+        "actual": "AccountInformation"
+    },
+    {
+        "query": "transaction history",
+        "actual": "AccountInformation"
+    },
+    {
+        "query": "account details",
+        "actual": "AccountInformation"
+    },
+    {
+        "query": "recent transactions",
+        "actual": "AccountInformation"
+    },
+    {
+        "query": "check balance",
+        "actual": "AccountInformation"
+    },
+    {
+        "query": "account summary",
+        "actual": "AccountInformation"
+    },
+    {
+        "query": "bank account info",
+        "actual": "AccountInformation"
+    },
+    {
+        "query": "view account",
+        "actual": "AccountInformation"
+    },
+    {
+        "query": "account activity",
+        "actual": "AccountInformation"
+    },
+    {
+        "query": "available balance",
+        "actual": "AccountInformation"
+    }
+]
