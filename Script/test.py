@@ -4,7 +4,7 @@ from nltk.stem import PorterStemmer
 import pandas as pd
 from evaluation_data import eva_data
 # Load the model
-loaded_pipe = joblib.load('intent_classifier.joblib')
+loaded_pipe = joblib.load(r'C:\Users\anandha.kumar\OneDrive - ClaySys Technologies\Desktop\Code Base\Global search\intent_classifier.joblib')
 
 # Initialize stemmer and stop words matching the training phase
 stemmer = PorterStemmer()
@@ -34,6 +34,10 @@ print(f"Successfully loaded evaluation data. Number of samples: {len(data)}")
 df = pd.DataFrame(data)
 print("\nPreview of the first 5 records:")
 print(df.head())
+df['Predicted value'] = ""
+df['Correctness'] = ""
+
+
 correct_predictions = 0
 total_predictions = len(data)
 for i in range(len(data)):
@@ -42,16 +46,20 @@ for i in range(len(data)):
     actual_intent = data[i]['actual']
     preprocessed_query = preprocess(query)
     predicted_intent = loaded_pipe.predict([preprocessed_query])[0]
+    df.loc[i, 'Predicted value'] = predicted_intent
     # print(f"Query: '{query}' | Actual Intent: '{actual_intent}' | Predicted Intent: '{predicted_intent}'")
     if actual_intent == predicted_intent:
         correct_predictions += 1
+        df.loc[i, 'Correctness'] = "Correct"
+    else:
+        df.loc[i, 'Correctness'] = "Incorrect"
 
 print(f"\nCorrect Predictions: {correct_predictions}")
 print(f"Total Predictions: {total_predictions}")
 print(f"Accuracy: {correct_predictions / total_predictions * 100:.2f}%")
     
 
-
+df.to_excel(r"C:\Users\anandha.kumar\OneDrive - ClaySys Technologies\Desktop\Code Base\Global search\data\processed\evaluation_results.xlsx", index=False)
 
 # # Preprocess and predict on new queries
 # new_queries = ["transfer money to savings", "pay my bill"]
